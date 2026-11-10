@@ -45,9 +45,9 @@ if produto and categorias and qtde:
         if qtde < 10:
             print('Solicitar {} à equipe de compras, temos apenas {} unidades em estoque'.format(categoria, qtde))
 else:
-    print('Não foi possível realizar a verificação de estoque, pois algum dos campos não foi preenchido corretamente.')
+    print('Não foi possível realizar a verificação, pois algum dos campos não foi preenchido corretamente.')
 
 if qtde < 10 or categoria == 'Blusas' and qtde < 30:
     pass
 else:
-    print('estoque acima de {}, não será necessário realizar a compra de mais {}'.format(qtde, categoria))
+    print('estoque acima da quantidade mínima, não será necessário realizar a compra de mais {}'.format(qtde, categoria))
