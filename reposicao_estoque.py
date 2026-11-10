@@ -50,4 +50,4 @@ else:
 if qtde < 10 or categoria == 'Blusas' and qtde < 30:
     pass
 else:
-    print('estoque acima da quantidade mínima, não será necessário realizar a compra de mais {}'.format(qtde, categoria))
+    print('estoque acima da quantidade mínima, não será necessário realizar a compra de mais {}'.format(categoria))
